@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator is on JSP</title>
+</head>
+
+    <span class="calculator" style="display: block;">
+        <form action="./secondpage.jsp" method="GET">
+            <span class="operator oper">
+                Choose method:
+                <select name="op" class="input" required>
+                    <option selected disabled>...</option>
+                    <option value="sub">-</option>
+                    <option value="div">/</option>
+                    <option value="add">+</option>
+                    <option value="mul">x</option>
+                </select>
+            </span>
+            <span class="firstobject oper">
+                First object: <input type="text" name="firstobject" class="input" required />
+            <span>
+            <span class="secondobject oper">
+                Second object: <input type="text" name="secondobject" class="input" required />
+            </span>
+            <span class="submition">
+                <input type="submit"
+    
+                    value="=" />
+            </span>
+        </form>
+    </span>
+    <span class="report">
+        <a href="./report.jsp"> Information about the client's status</a>
+    </span>
+</body>
+
+</html>
