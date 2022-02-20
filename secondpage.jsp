@@ -1,4 +1,4 @@
-<%@ page errorage="errorpage.jsp" %> 
+<%@ page Errorage="error_page.jsp" %> 
 <html>
 <head>
     <title>Simple Calculator</title>
